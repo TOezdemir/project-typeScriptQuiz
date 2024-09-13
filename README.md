@@ -19,7 +19,7 @@
 ## Installation
 Klone das Repository: `git clone https://github.com/<dein-github-username>/typescript-quiz.gi`
 Navigiere in das Projektverzeichnis: `cd typescript-quiz`
-Im Projektverzeichnis `npm i` ausführen um Vite / TypeScript ausführen zu können 
+Außerdem um Vite / TypeScript nutzen zu können im Terminal ausführen: `npm i`
 Öffne `index.html` in deinem Browser.
 
 ## Verwendung
