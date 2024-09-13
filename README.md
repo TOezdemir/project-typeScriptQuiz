@@ -43,6 +43,3 @@ Der Code wurde so sauber und übersichtlich wie möglich gehalten, damit man ihn
 2. Weitere Fragen und Kategorien: Das Quiz könnte durch zusätzliche Fragen und Kategorien erweitert werden, um das Wissen in verschiedenen TypeScript-Bereichen abzudecken.
 3. Nutzerdatenspeicherung: Die Verwendung von LocalStorage könnte dazu dienen, den Punktestand oder die besten Ergebnisse zu speichern, um den Fortschritt der Benutzer zu verfolgen.
 4. Verbesserte Fehlerbehandlung:
-
-## Lizenz
-Dieses Projekt ist unter der MIT-Lizenz lizenziert. Siehe die LICENSE-Datei für weitere Informationen.
