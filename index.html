@@ -1,10 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
     <script type="module" src="./src/main.ts" defer></script>
     <title>Project: TypeScript Quiz</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>TypeScript Quiz</h1>
+    </header>
+    <main>
+      <section>
+        <form id="form-difficulty">
+          <select name="language" id="language" required>
+            <option value="" disabled selected>Sprache/ Language</option>
+            <option value="de">Deutsch</option>
+            <option value="en">English</option>
+          </select>
+
+          <select name="difficulty" id="difficulty" required>
+            <option value="" disabled selected>
+              Schwierigkeitsgrad/ Difficulty
+            </option>
+            <option value="easy">leicht / easy</option>
+            <option value="hard">schwierig / hard</option>
+          </select>
+          <button type="submit">Start</button>
+        </form>
+      </section>
+      <section>
+        <p id="score-text"></p>
+        <button id="restart" type="button" onclick="location.reload()">
+          Quiz wiederholen!
+        </button>
+      </section>
+      <section>
+        <form id="form-question">
+          <div id="card-container"></div>
+          <button id="submit" type="submit">Absenden</button>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
